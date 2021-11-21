@@ -1,7 +1,6 @@
 for i,v in pairs(game:GetService("Workspace").Map.Coins:GetDescendants()) do
 local Root = game.Players.LocalPlayer.Character.HumanoidRootPart
 if v:IsA("Part") then
-    game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
     local New_CFrame = CFrame.new(v.Position)
 
 
